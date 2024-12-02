@@ -32,9 +32,9 @@ int	ft_print_hex(unsigned int n, int base)
 	char	*hex;
 
 	if (base)
-		hex = "0123456789ABCDEFG";
+		hex = "0123456789ABCDEF";
 	else
-		hex = "0123456789abcdefg";
+		hex = "0123456789abcdef";
 	if (n == 0)
 		return (ft_print_c('0'));
 	else
